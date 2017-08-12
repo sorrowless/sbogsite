@@ -1,0 +1,9 @@
+---
+- name: Deploy site to target host
+  hosts: all
+  remote_user: root
+  vars_files:
+   - vars/site_vars.yml
+
+  roles:
+    - site

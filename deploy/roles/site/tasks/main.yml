@@ -3,7 +3,7 @@
   git:
     clone: yes
     dest: "/var/www/html/{{ site_hostname }}"
-    remote: "{{ origin_remote }}"
+    repo: "{{ origin_remote }}"
   notify:
     - Restart Nginx
 

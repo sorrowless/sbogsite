@@ -1,3 +1,16 @@
+---
+geometry:
+- top=0.75in
+- bottom=1in
+- left=0.5in
+- right=1in
+mainfont: Roboto
+documentclass: extarticle
+fontsize: 10pt
+colorlinks: true
+linkcolor: Blue
+urlcolor: Blue
+---
 # Stan Bogatkin - Principal DevOps Engineer
 
 ## Short summary
@@ -14,9 +27,9 @@
 * _Security core:_ Firewall, IPSEC/VPN,  SSL/TLS, RB/Mantatory access contols
 * _Cloud proficient:_ OpenStack (most of the key services up to current versions), AWS, common broker messaging – RabbitMQ, Oslo messaging, Google App Engine (BigTable, Memcache API, Firebase), MS Azure, Docker (with Compose and Swarm)
 * _Monitoring and logging:_ rsyslog, Nagios, CollectD, Prometheus, Sensu, Grafana, ElasticSearch/Logstash/Kibana/Graylog
-* _Time-Series Dbs:_ Graphite (whisper), Prometheus Carbon, TimescaleDB
+* _Time-Series Dbs:_ Graphite (whisper), Prometheus Carbon, TimescaleDB, VictoriaMetrics
 * _Clouds experience:_ OpenStack, Azure, AWS
-* _Container-related tools:_ Docker, Kubernetes
+* _Container-related tools:_ Docker, Podman, Kubernetes
 * _Linux core expertise:_ network stack, FS, kernel tracing, automating, monitoring etc.
 * _Provisioning and deploy:_ Puppet, Ansible, MaaS, Fuel
 * _Development:_
@@ -33,10 +46,10 @@
 ## Work experience
 ### June 2017 - Current: **Senior Reliability Engineer, GoDaddy**
 
-_Where to look at:_ https://www.godaddy.com<br />
-_Customer:_  Internal company services<br />
-_Team Size:_ 10-20<br />
-_Project Role:_ Senior Reliability Engineer<br />
+_Where to look at:_ <https://www.godaddy.com>\
+_Customer:_  Internal company services\
+_Team Size:_ 10-20\
+_Project Role:_ Senior Reliability Engineer\
 _Daily routine:_
 
 * Create and improve internal cloud services
@@ -56,10 +69,10 @@ _Tasks Performed:_
 
 ### June 2017 - Current: **Senior Reliability Engineer, Oom.ag**
 
-_Where to look at:_ https://oom.ag/<br />
-_Customer:_  Internal company services<br />
-_Team Size:_ 1-10<br />
-_Project Role:_ SRE<br />
+_Where to look at:_ <https://oom.ag/>\
+_Customer:_  Internal company services\
+_Team Size:_ 1-10\
+_Project Role:_ SRE\
 _Tasks Performed:_
 
 * Created CI/CD system based on TravisCI/AWS CodePipeline
@@ -70,10 +83,10 @@ _Tasks Performed:_
 
 ### June 2017 - Current: **Senior Reliability Engineer, 360tv**
 
-_Where to look at:_ https://360tv.ru/<br />
-_Customer:_  Internal company services<br />
-_Team Size:_ 1-10<br />
-_Project Role:_ SRE<br />
+_Where to look at:_ <https://360tv.ru/>\
+_Customer:_  Internal company services\
+_Team Size:_ 1-10\
+_Project Role:_ SRE\
 _Tasks Performed:_
 
 * Created CI/CD system based on Jenkins
@@ -87,13 +100,13 @@ _Tasks Performed:_
 
 ### June 2017 - November 2018: **DevOps, Billionapp**
 
-_Customer:_  Internal company services<br />
-_Team Size:_ 1-10<br />
-_Project Role:_ DevOps<br />
+_Customer:_  Internal company services\
+_Team Size:_ 1-10\
+_Project Role:_ DevOps\
 _Tasks Performed:_
 
 * Created CI/CD system based on Jenkins from scratch
-* Created semi-automated monitoring and support of internal infrastructure services – Jira/BitBucket/Confluence/Mail services
+* Created semi-automated monitoring and support of internal infrastructure services – Jira, BitBucket, Confluence, Mail services
 * Dramatically increased time to deliver company services to production – from weeks to hours
 * Fully automated infrastructure changes deployment based on Ansible stack
 * Moved all company services from Docker Swarm to Kubernetes
@@ -101,11 +114,11 @@ _Tasks Performed:_
 
 ### June 2014 - May 2017: **Senior Deployment Engineer, Mirantis**
 
-_Where to look at:_ https://www.mirantis.com<br />
-_Customer:_  As a key deployment engineer worked for all company customers cloud-related projects<br />
-_Project:_ Fuel – the biggest and most powerful official OpenStack deployment tool<br />
-_Team Size:_ 50-200<br />
-_Project Role:_ Senior Deployment Engineer<br />
+_Where to look at:_ <https://www.mirantis.com>\
+_Customer:_  As a key deployment engineer worked for all company customers cloud-related projects\
+_Project:_ Fuel – the biggest and most powerful official OpenStack deployment tool\
+_Team Size:_ 50-200\
+_Project Role:_ Senior Deployment Engineer\
 _Tasks performed:_
 
 * Developed Puppet manifests to deploy maintenance updates of Mirantis OpenStack cloud clusters
@@ -120,10 +133,10 @@ _Tasks performed:_
 
 ### 2013 - June 2014: **Principal engineer, PAO Armada (former RBC-Soft)**
 
-_Where to look at:_ http://pao-armada.ru/<br />
-_Project:_ GIS for planning, analyze and store government defense orders.<br />
-_Team Size:_ 20-200<br />
-_Project Role:_ Operational TeamLead<br />
+_Where to look at:_ <http://pao-armada.ru/>\
+_Project:_ GIS for planning, analyze and store government defense orders.\
+_Team Size:_ 20-200\
+_Project Role:_ Operational TeamLead\
 _Tasks performed:_
 
 * Developed and integrated distributed software system for customer needs
@@ -133,10 +146,10 @@ _Tasks performed:_
 
 ### 2011 - 2013: **Engineer, M-Reason**
 
-_Where to look at:_ http://m-reason.com<br />
-_Project:_ Internal support<br />
-_Team Size:_ 5<br />
-_Project Role:_ L2 support/System administrator<br />
+_Where to look at:_ <http://m-reason.com>\
+_Project:_ Internal support\
+_Team Size:_ 5\
+_Project Role:_ L2 support/System administrator\
 _Tasks performed:_
 
 * Restructured network solutions, created external VPN for all subsidiaries
@@ -145,9 +158,9 @@ _Tasks performed:_
 
 ### 2006 - 2011: **Engineer, JSC Sigma**
 
-_Project:_ Internal support<br />
-_Team Size:_ 4<br />
-_Project Role:_ L2 support/System administrator<br />
+_Project:_ Internal support\
+_Team Size:_ 4\
+_Project Role:_ L2 support/System administrator\
 _Tasks performed:_
 
 * Unifed network scheme across all company branches
@@ -157,20 +170,20 @@ _Tasks performed:_
 
 ## Education
 
-_Graduation Year:_ 2011<br />
-_Name of the Education Establishment:_ Tambov State Technical University<br />
-_Faculty/College:_ Informational systems<br />
-_Degree (diploma):_ Master of Science (officially evaluated by Trustforce Corp.)<br />
+_Graduation Year:_ 2011\
+_Name of the Education Establishment:_ Tambov State Technical University\
+_Faculty/College:_ Informational systems\
+_Degree (diploma):_ Master of Science (officially evaluated by Trustforce Corp.)\
 _Specialty:_ Informational systems and technologies
 
 
 ## Certifications:
 
-_Cisco:_ CCNA<br />
+_Cisco:_ CCNA\
 _TOEIC:_ 860
 
 ## Contact Information:
 
-_mailto:_ stabog.tmb@gmail.com<br />
-_skype:_ sur1kan0<br />
+_mailto:_ <stabog.tmb@gmail.com>\
+_skype:_ sur1kan0\
 _phone/Telegram:_ +79264934575

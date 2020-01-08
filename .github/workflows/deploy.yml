@@ -1,0 +1,46 @@
+name: Website deployment
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+    name: Deployment
+    runs-on: ubuntu-18.04
+    steps:
+      - name: Ensure SSH private key
+        env:
+          SSH_PRIVATE_KEY: ${{ secrets.DEPLOYMENT_PRIVATE_KEY }}
+        run: |
+          mkdir -p $HOME/.ssh
+          echo $SSH_PRIVATE_KEY > $HOME/.ssh/id_ed25519
+          cat $HOME/.ssh/id_ed25519
+          chmod 0600 $HOME/.ssh/id_ed25519
+      - name: Install prerequisites
+        run: |
+          sudo apt update
+          sudo apt install -y pandoc texlive-latex-extra fonts-roboto texlive-xetex
+      - name: Checkout site code
+        uses: actions/checkout@v2
+        with:
+          repository: ${{ github.repository }}
+          fetch-depth: 1
+          path: ${{ secrets.DEPLOYMENT_HOST }}
+      - name: Build PDF CV from Markdown
+        env:
+          DEPLOYMENT_HOST: ${{ secrets.DEPLOYMENT_HOST }}
+        run: |
+          pushd $DEPLOYMENT_HOST/data
+          #pandoc --from markdown --to pdf --pdf-engine=xelatex cv.md > cv.pdf
+          # `--pdf-engine` option was introduced in pandoc 1.20 but ubuntu
+          # bionic still ships 1.19, so use old option name.
+          pandoc -t latex --latex-engine=xelatex -o cv.pdf cv.md
+          popd
+      - name: Sync site data with target host
+        env:
+          DEPLOYMENT_USER: ${{ secrets.DEPLOYMENT_USER }}
+          DEPLOYMENT_HOST: ${{ secrets.DEPLOYMENT_HOST }}
+          DEPLOYMENT_SSH_PORT: ${{ secrets.DEPLOYMENT_SSH_PORT }}
+        run: |
+          rsync -aviP --exclude='.git*' -e "ssh -p $DEPLOYMENT_SSH_PORT -o StrictHostKeyChecking=no" $DEPLOYMENT_HOST/ $DEPLOYMENT_USER@$DEPLOYMENT_HOST:/var/www/$DEPLOYMENT_HOST/

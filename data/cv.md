@@ -33,10 +33,10 @@ urlcolor: Blue
 * _Linux core expertise:_ network stack, FS, kernel tracing, automating, monitoring etc.
 * _Provisioning and deploy:_ Puppet, Ansible, MaaS, Fuel
 * _Development:_
-  * Python 2/3 and frameworks (Flask, SQLAlchemy etc.)
-  * Java Core, Android-related Java frameworks and libraries (Dagger, Rx, ButterKnife, GSON/Jackson, Okio/OkHttp, Retrofit)
-  * Ruby DSLs
-  * Shell scripting
+    * Python 2/3 and frameworks (Flask, SQLAlchemy etc.)
+    * Java Core, Android-related Java frameworks and libraries (Dagger, Rx, ButterKnife, GSON/Jackson, Okio/OkHttp, Retrofit)
+    * Ruby DSLs
+    * Shell scripting
 * _Software Design:_ Design patterns, Architectural pattens (CLEAN, VIPER, MVP etc.);
 * _Software Engineering Management:_ JIRA, Trello, Slack, Confluence
 * _CI/CD and tools:_ Jenkins, TravisCI, CircleCI, Gitlab, BitBucket, plain Git

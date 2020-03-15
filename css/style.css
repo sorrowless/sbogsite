@@ -80,10 +80,10 @@ body {
 
 #about {
   position: absolute;
-  left: 25%;
-  top: 20%;
+  left: 10%;
+  top: 30%;
   padding: 0 10px;
-  width: 50%;
+  width: 80%;
   text-align: center;
 }
 
@@ -155,5 +155,15 @@ p {
   }
   h1::after {
     height: 4px;
+  }
+}
+
+@media screen and (max-width: 1020px) {
+  #about {
+    float: none;
+    width: auto;
+    left: 5%;
+    right: 5%;
+    top: 5%;
   }
 }

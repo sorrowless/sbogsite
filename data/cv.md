@@ -44,6 +44,25 @@ urlcolor: Blue
 
 
 ## Work experience
+### November 2019 - Current: **DevOps, CoderShip**
+
+_Where to look at:_ <https://galeracluster.com>\
+_Customer:_  Internal company services\
+_Team Size:_ 1-10\
+_Project Role:_ Infrastructure Engineer, QA Engineer
+_Daily routine:_
+
+* Migrate from old deployment system to automated new one
+* Ensure automation for testing, packaging and deployment of upstream MySQL/Galera
+* Support and develop existing CI/CD system
+* Implement new infrastructure features
+
+_Tasks Performed:_
+
+* Moved from old shell-based deployment and testing system to Ansible-based new one
+* Moved to container-based testing and packaging approach
+
+
 ### June 2017 - Current: **Senior Reliability Engineer, GoDaddy**
 
 _Where to look at:_ <https://www.godaddy.com>\
@@ -63,7 +82,7 @@ _Tasks Performed:_
 * Created automated key rotation mechanism for Vault-encrypted files
 * Created automation jobs to extract clusters info from OpenStack API
 * Upgraded existing Kolla repos to upstream while saved downstream work
-* Gradually onboard 3 new team members from zero to hero
+* Gradually onboard several new team members from zero to hero
 * Developed automatic tooling to issue TLS keypairs via different sources
 
 
@@ -73,12 +92,20 @@ _Where to look at:_ <https://oom.ag/>\
 _Customer:_  Internal company services\
 _Team Size:_ 1-10\
 _Project Role:_ SRE\
+_Daily routine:_
+
+* Automate company and external customers projects
+* Working with external auditors to implement better security
+* Ensure CI/CD ptocess for all company projects
+* Work on monitoring improvements
+
 _Tasks Performed:_
 
 * Created CI/CD system based on TravisCI/AWS CodePipeline
 * Created automated monitoring and support of internal infrastructure services – hundreds of metrics per minute
 * Fully automated infrastructure changes deployment based on Ansible stack
 * Maintain deployment tools as simple as possible, help developers to learn Ops stuff
+* Implemented PCI DSS requirements to pass external audit
 
 
 ### June 2017 - Current: **Senior Reliability Engineer, 360tv**
@@ -87,6 +114,11 @@ _Where to look at:_ <https://360tv.ru/>\
 _Customer:_  Internal company services\
 _Team Size:_ 1-10\
 _Project Role:_ SRE\
+_Daily routine:_
+
+* Constantly improve existing company infrastructure tooling
+* Help dev team to implement better solutions
+
 _Tasks Performed:_
 
 * Created CI/CD system based on Jenkins
@@ -96,6 +128,7 @@ _Tasks Performed:_
 * Maintain most popular TV website of Moscow Region
 * Implemented internal solution to work with git repositories
 * Imlemented and maintain infrastructure for more than 10 external projects
+
 
 
 ### June 2017 - November 2018: **DevOps, Billionapp**

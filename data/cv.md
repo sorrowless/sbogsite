@@ -57,11 +57,6 @@ _Daily routine:_
 * Support and develop existing CI/CD system
 * Implement new infrastructure features
 
-_Tasks Performed:_
-
-* Moved from old shell-based deployment and testing system to Ansible-based new one
-* Moved to container-based testing and packaging approach
-
 
 ### June 2017 - Current: **Senior Reliability Engineer, GoDaddy**
 

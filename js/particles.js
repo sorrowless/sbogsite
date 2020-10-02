@@ -12,20 +12,19 @@
         height = window.innerHeight;
         target = {x: width/2, y: height/2};
 
-        //largeHeader = document.getElementById('large-header');
-        //largeHeader.style.height = height+'px';
-
         canvas = document.getElementById('particles-canvas');
         canvas.width = width;
         canvas.height = height;
         ctx = canvas.getContext('2d');
 
         // create points
+        pointsCountX = width/20
+        pointsCountY = height/20
         points = [];
-        for(var x = 0; x < width; x = x + width/20) {
-            for(var y = 0; y < height; y = y + height/20) {
-                var px = x + Math.random()*width/20;
-                var py = y + Math.random()*height/20;
+        for(var x = 0; x < width; x = x + pointsCountX) {
+            for(var y = 0; y < height; y = y + pointsCountY) {
+                var px = x + Math.random()*pointsCountX;
+                var py = y + Math.random()*pointsCountY;
                 var p = {x: px, originX: px, y: py, originY: py };
                 points.push(p);
             }

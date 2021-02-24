@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-18.04
     steps:
       - name: Ensure SSH private key
-        uses: sorrowless/ssh-agent@v0.1.1
+        uses: sorrowless/ssh-agent@v0.5.0
         with:
           ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
       - name: Install prerequisites

@@ -58,7 +58,7 @@ urlcolor: Blue
 _Where to look at:_ <https://galeracluster.com>\
 _Customer:_  Internal company services\
 _Team Size:_ 1-10\
-_Project Role:_ Infrastructure Engineer, QA Engineer
+_Project Role:_ Infrastructure Engineer, QA Engineer\
 _Employment type:_ Part-time\
 _Daily routine:_
 
@@ -122,7 +122,7 @@ _Where to look at:_ <https://www.godaddy.com>\
 _Customer:_  Internal company services\
 _Team Size:_ 10-20\
 _Project Role:_ Senior Reliability Engineer\
-_Employment type:_ Fulltime\
+_Employment type:_ Full-time\
 _Daily routine:_
 
 * Create and improve internal cloud services
@@ -171,7 +171,7 @@ _Customer:_  As a key deployment engineer worked for all company customers cloud
 _Project:_ Fuel – the biggest and most powerful official OpenStack deployment tool\
 _Team Size:_ 50-200\
 _Project Role:_ Senior Deployment Engineer\
-_Employment type:_ Fulltime\
+_Employment type:_ Full-time\
 _Tasks performed:_
 
 * Developed Puppet manifests to deploy maintenance updates of Mirantis OpenStack cloud clusters
@@ -190,7 +190,7 @@ _Where to look at:_ <http://pao-armada.ru/>\
 _Project:_ GIS for planning, analyze and store government defense orders.\
 _Team Size:_ 20-200\
 _Project Role:_ Operational TeamLead\
-_Employment type:_ Fulltime\
+_Employment type:_ Full-time\
 _Tasks performed:_
 
 * Developed and integrated distributed software system for customer needs
@@ -204,7 +204,7 @@ _Where to look at:_ <http://m-reason.com>\
 _Project:_ Internal support\
 _Team Size:_ 5\
 _Project Role:_ L2 support/System administrator\
-_Employment type:_ Fulltime\
+_Employment type:_ Full-time\
 _Tasks performed:_
 
 * Restructured network solutions, created external VPN for all subsidiaries

@@ -19,14 +19,22 @@ urlcolor: Blue
 
 * Experience with deployment and migration in heterogeneous environments
 * Development key application tools for system deployment and life cycle management
-* Planning and delivery of solid cloud solutions for 500+ nodes
+* Plan and delivery of solid cloud solutions for 500+ nodes
+* Lead the effort in infrastructure scaling, availability, reliability and
+  efficiency via software and automation
+* Debug complex issues found in production between multiple systems or services
+* Act independently to establish repeatable methods and procedures to reduce or
+  eliminate blockers and dependencies. Learning to resolve blockers and
+  dependencies for the team
+* Work to understand critical path items and create health check metrics and
+  dashboards
 
 #### Skills and Awards:
 
 * _Network core:_ proficient knowledge of TCP/IP stack
 * _Security core:_ Firewall, IPSEC/VPN,  SSL/TLS, RB/Mantatory access contols
 * _Cloud proficient:_ OpenStack (most of the key services up to current versions), AWS, common broker messaging – RabbitMQ, Oslo messaging, Google App Engine (BigTable, Memcache API, Firebase), MS Azure, Docker (with Compose and Swarm)
-* _Monitoring and logging:_ rsyslog, Nagios, CollectD, Prometheus, Sensu, Grafana, ElasticSearch/Logstash/Kibana/Graylog
+* _Monitoring and logging:_ rsyslog/syslog-ng, Nagios, CollectD, Prometheus, Sensu, Grafana, ElasticSearch/Logstash/Kibana/Graylog
 * _Time-Series Dbs:_ Graphite (whisper), Prometheus Carbon, TimescaleDB, VictoriaMetrics
 * _Clouds experience:_ OpenStack, Azure, AWS
 * _Container-related tools:_ Docker, Podman, Kubernetes
@@ -43,6 +51,7 @@ urlcolor: Blue
 * _Spoken Languages:_ English, Russian;
 
 
+
 ## Work experience
 ### November 2019 - Current: **DevOps, CoderShip**
 
@@ -50,6 +59,7 @@ _Where to look at:_ <https://galeracluster.com>\
 _Customer:_  Internal company services\
 _Team Size:_ 1-10\
 _Project Role:_ Infrastructure Engineer, QA Engineer
+_Employment type:_ Part-time\
 _Daily routine:_
 
 * Migrate from old deployment system to automated new one
@@ -58,57 +68,13 @@ _Daily routine:_
 * Implement new infrastructure features
 
 
-### June 2017 - Current: **Senior Reliability Engineer, GoDaddy**
-
-_Where to look at:_ <https://www.godaddy.com>\
-_Customer:_  Internal company services\
-_Team Size:_ 10-20\
-_Project Role:_ Senior Reliability Engineer\
-_Daily routine:_
-
-* Create and improve internal cloud services
-* Maintain existing internal cloud
-
-_Tasks Performed:_
-
-* Developed internal servers capacity extraction tool
-* Developed internal capacity exhaustion prediction tool
-* Improved ElasticSearch Kibana Dashboards to look at servers capacity and trends
-* Created automated key rotation mechanism for Vault-encrypted files
-* Created automation jobs to extract clusters info from OpenStack API
-* Upgraded existing Kolla repos to upstream while saved downstream work
-* Gradually onboard several new team members from zero to hero
-* Developed automatic tooling to issue TLS keypairs via different sources
-
-
-### June 2017 - Current: **Senior Reliability Engineer, Oom.ag**
-
-_Where to look at:_ <https://oom.ag/>\
-_Customer:_  Internal company services\
-_Team Size:_ 1-10\
-_Project Role:_ SRE\
-_Daily routine:_
-
-* Automate company and external customers projects
-* Working with external auditors to implement better security
-* Ensure CI/CD ptocess for all company projects
-* Work on monitoring improvements
-
-_Tasks Performed:_
-
-* Created CI/CD system based on TravisCI/AWS CodePipeline
-* Created automated monitoring and support of internal infrastructure services – hundreds of metrics per minute
-* Fully automated infrastructure changes deployment based on Ansible stack
-* Maintain deployment tools as simple as possible, help developers to learn Ops stuff
-* Implemented PCI DSS requirements to pass external audit
-
-
 ### June 2017 - Current: **Senior Reliability Engineer, 360tv**
 
 _Where to look at:_ <https://360tv.ru/>\
 _Customer:_  Internal company services\
 _Team Size:_ 1-10\
 _Project Role:_ SRE\
+_Employment type:_ Part-time\
 _Daily routine:_
 
 * Constantly improve existing company infrastructure tooling
@@ -125,12 +91,70 @@ _Tasks Performed:_
 * Imlemented and maintain infrastructure for more than 10 external projects
 
 
+### June 2017 - Current: **Senior Reliability Engineer, Oom.ag**
+
+_Where to look at:_ <https://oom.ag/>\
+_Customer:_  Internal company services\
+_Team Size:_ 1-10\
+_Project Role:_ SRE\
+_Employment type:_ Part-time\
+_Daily routine:_
+
+* Automate company and external customers projects
+* Working with external auditors to implement better security
+* Ensure CI/CD ptocess for all company projects
+* Work on monitoring improvements
+
+_Tasks Performed:_
+
+* Created CI/CD system based on TravisCI/AWS CodePipeline
+* Created automated monitoring and support of internal infrastructure services – hundreds of metrics per minute
+* Fully automated infrastructure changes deployment based on Ansible stack
+* Maintain deployment tools as simple as possible, help developers to learn Ops stuff
+* Implemented PCI DSS requirements to pass external audit
+* Implemented centralized logging solution from scratch
+* Implemented centralized backup solution from scratch
+
+
+### June 2017 - March 2021: **Senior Reliability Engineer, GoDaddy**
+
+_Where to look at:_ <https://www.godaddy.com>\
+_Customer:_  Internal company services\
+_Team Size:_ 10-20\
+_Project Role:_ Senior Reliability Engineer\
+_Employment type:_ Fulltime\
+_Daily routine:_
+
+* Create and improve internal cloud services
+* Maintain existing internal cloud
+* Identify, assist in planning and implement solutions that continually
+  improves performance
+* Identify, assist in creating and maintain automation which allows for
+  self-healing and incident resolution
+* On-call rotations and Incident call handling
+* Work across multiple distributed teams to accomplish internal and external
+  team integrations
+
+_Tasks Performed:_
+
+* Developed internal servers capacity extraction tool
+* Developed internal capacity exhaustion prediction tool
+* Improved ElasticSearch Kibana Dashboards to look at servers capacity and trends
+* Created automated key rotation mechanism for Vault-encrypted files
+* Created automation jobs to extract clusters info from OpenStack API
+* Upgraded existing Kolla repos to upstream while saved downstream work
+* Gradually onboard several new team members from zero to hero
+* Developed automatic tooling to issue TLS keypairs via different sources
+* Planned new log ingestion tooling and implement part of it
+* Moved internal tools from Python 2 to Python 3 codebase
+
 
 ### June 2017 - November 2018: **DevOps, Billionapp**
 
 _Customer:_  Internal company services\
 _Team Size:_ 1-10\
 _Project Role:_ DevOps\
+_Employment type:_ Part-time\
 _Tasks Performed:_
 
 * Created CI/CD system based on Jenkins from scratch
@@ -147,6 +171,7 @@ _Customer:_  As a key deployment engineer worked for all company customers cloud
 _Project:_ Fuel – the biggest and most powerful official OpenStack deployment tool\
 _Team Size:_ 50-200\
 _Project Role:_ Senior Deployment Engineer\
+_Employment type:_ Fulltime\
 _Tasks performed:_
 
 * Developed Puppet manifests to deploy maintenance updates of Mirantis OpenStack cloud clusters
@@ -165,6 +190,7 @@ _Where to look at:_ <http://pao-armada.ru/>\
 _Project:_ GIS for planning, analyze and store government defense orders.\
 _Team Size:_ 20-200\
 _Project Role:_ Operational TeamLead\
+_Employment type:_ Fulltime\
 _Tasks performed:_
 
 * Developed and integrated distributed software system for customer needs
@@ -178,6 +204,7 @@ _Where to look at:_ <http://m-reason.com>\
 _Project:_ Internal support\
 _Team Size:_ 5\
 _Project Role:_ L2 support/System administrator\
+_Employment type:_ Fulltime\
 _Tasks performed:_
 
 * Restructured network solutions, created external VPN for all subsidiaries
